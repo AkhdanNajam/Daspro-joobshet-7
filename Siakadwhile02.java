@@ -17,6 +17,11 @@ public class Siakadwhile02 {
             }
 
             if (nilai > 80 && nilai <= 100) {
+                System.out.println("Bagus, Pertahankan Nilainya");
+            
+            }
+
+            if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah B+");
@@ -30,11 +35,12 @@ public class Siakadwhile02 {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah D");
             } else {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E");
-            }
+           }
 
             i++;
         }
         scanner.close();
     }
-}
+    }
+
 
